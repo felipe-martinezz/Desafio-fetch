@@ -11,7 +11,7 @@ function consultarDolar() {
      .then(({oficial, blue}) => {
            divDolar.innerHTML = `
                <div class>
-                <h2>Cotizaciones del dolar </h2>
+                <h2>Cotización del dolar al instante! </h2>
                 <p>Oficial:$ ${oficial} </p>
                 <p>Blue:$ ${blue} </p>
                </div>
